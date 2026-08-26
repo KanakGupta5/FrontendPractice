@@ -1,0 +1,140 @@
+:root {
+    --white: #ffffff;
+    --stone-100: #f3e6d8;
+    --stone-150: #e4ded8;
+    --stone-600: #5f574e;
+    --stone-900: #302d2c;
+
+    --brown-800: #854632;
+
+    --rose-800: #7b284f;
+    --rose-50: #fff5fa;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: cursive;
+    color: var(--stone-600);
+}
+
+.container {
+    background-color: var(--stone-100);
+    display: flex;
+    justify-content: center;
+}
+
+.recipe-container {
+    max-width: 50rem;
+    background-color: var(--white);
+    padding: 3rem 3rem;
+    border-radius: 1rem;
+}
+
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.recipe-img {
+    width: 42rem;
+}
+
+.main-heading {
+    font-size: 3rem;
+    
+}
+
+.preparation-container {
+    background-color: var(--rose-50);
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 3rem;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.preparation-heading {
+    color: var(--rose-800);
+    font-size: 1.5rem;
+}
+
+.ingredients-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.instruction-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.nutrition-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+li::marker {
+    color: var(--rose-800);
+}
+
+.heading {
+    font-size: 2rem;
+    color: var(--brown-800);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.nutrition-table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1rem;
+}
+
+.padding-l-s {
+    padding-left: 1.5rem;
+}
+
+.ingredients-container {
+    margin-top: 2rem;
+}
+
+.table-row {
+    font-weight: bold;
+    color: var(--brown-800);
+}
+
+.table-left-col {
+    font-weight: bold;
+    color: var(--stone-900);
+}
+
+.footer {
+    margin-top: 2rem;
+    text-align: center;
+}
+

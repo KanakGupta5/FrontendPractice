@@ -1,0 +1,7 @@
+@media(max-width: 32rem){
+    .recipe-container {
+        /* max-width: 0%; */
+        width: 100%;
+        /* min-width: 100%; */
+    }
+}
