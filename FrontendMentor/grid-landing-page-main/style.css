@@ -1,0 +1,156 @@
+:root {
+    /* colors scheme */
+    /* --body-primary-color: #f1f3f5; */
+    /* --text-primary-color: #212529; */
+    --white: #ffffff;
+    --blue200: #e5ecff;
+    --blue400: #4785ff;
+    --blue600: #335cff;
+    --body-primary-color: #2a54fe;
+    --black: #000000;
+
+    /* font family and size */
+    --font-faamily: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--white);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 15rem auto;
+    font-family: var(--font-faamily);
+    color: var(--white);
+    background-color: var(--body-primary-color);
+    min-height: 70vh;
+}
+
+.header-container {
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    padding: 2rem 4rem;
+    
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu-img {
+    cursor: pointer;
+}
+
+.menu-items-container {
+    position: absolute;
+    right: 0%;
+    padding: 2rem 3rem;
+    background-color: var(--body-primary-color);
+    min-height: 65vh;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    text-align: end;
+}
+
+a {
+    color: var(--white);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+.hero-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 2rem 3rem;
+    min-height: 58vh;
+    border-top: 1px solid #ced4da;
+    border-bottom: 1px solid #ced4da;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2rem;
+}
+
+.hero-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.hero-card {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 4rem;
+    justify-content: space-around;
+    border: 1px solid #ced4da;
+}
+
+.hero-card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    padding: 2rem 4rem 2rem 4rem;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+}
+
+/* icons */
+.dot-icon {
+    height: 10px;
+}
+
+.copyright-icon {
+    margin-right: 0.5rem;
+}
+
+/* margin */
+.mb-half {
+    margin-bottom: 0.5rem;
+}
+
+.mb-one {
+    margin-bottom: 1rem;
+}
