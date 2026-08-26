@@ -10,7 +10,7 @@
     --black: #000000;
 
     /* font family and size */
-    --font-faamily: 'Poppins', sans-serif;
+    --font-family: 'Poppins', sans-serif;
 }
 
 * {
@@ -30,7 +30,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 15rem auto;
-    font-family: var(--font-faamily);
+    font-family: var(--font-family);
     color: var(--white);
     background-color: var(--body-primary-color);
     min-height: 70vh;
